@@ -5,4 +5,6 @@
     "EnvironmentName": "devtest",
     "continuousDeployment": true
   }
+  "useCompilerFolder": false,
+  "doNotPublishApps": false
 }
