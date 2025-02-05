@@ -7,5 +7,6 @@
   },
   "CurrentSchedule": "0 2 * * *",
   "NextMinorSchedule": "0 2 * * 6",
-  "NextMajorSchedule": "0 2 * * 0"
+  "NextMajorSchedule": "0 2 * * 0",
+  "templateSha": "ba4fc723e4c024674baa6a53ef1777402cfbaab0"
 }
