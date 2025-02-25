@@ -1,6 +1,6 @@
 codeunit 70000 "HelloWorld Test"
 {
-    Subtype = Test;
+    Subtype = Test; //change
 
     [Test]
     [HandlerFunctions('HelloWorldMessageHandler')]
