@@ -3,7 +3,8 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "DeployToDevTest": {
     "EnvironmentName": "devtest",
-    "continuousDeployment": true
+    "continuousDeployment": true,
+    "includeTestAppsInSandboxEnvironment": true
   },
   "CurrentSchedule": "0 2 * * *",
   "NextMinorSchedule": "0 2 * * 6",
