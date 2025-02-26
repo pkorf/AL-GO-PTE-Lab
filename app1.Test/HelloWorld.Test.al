@@ -22,5 +22,33 @@ codeunit 70000 "HelloWorld Test"
 
     var
         MessageDisplayed: Boolean;
+
+
+
+    //**>> TEST TASK SCHEDULER
+    // => in de github AL-Go-Settings.json moet een parameter worden toegevoegd: "enableTaskScheduler": true,
+    //
+    // daarna een testfunctie maken die een scheduled task aanmaakt met een codeunit die altijd een error geeft.
+    // en dan een fail codeunit erbij maken die checkt of de task inderdaad in error is gegaan. 
+    // Zo ja, dan werkt de Task Scheduler
+    //
+    //var
+    //  ScheduledTaskID: Guid;
+    //  NotBefore: DateTime;
+    //if not TaskScheduler.CanCreateTask() then
+    //    error('cannot create task');
+    //NotBefore := CurrentDateTime;
+    //ScheduledTaskID := TaskScheduler.CreateTask(80001, 0, false, '', NotBefore);
+    //TaskScheduler.SetTaskReady(ScheduledTaskID, NotBefore);
+    //
+    // in combinatie met deze codeunit en daarbij zal dus ook nog een failure codeunit moeten komen om af te vragen of hij fout is gegaan of niet:
+    //codeunit 80001 ScheduledTaskTest
+    //{
+    //    trigger OnRun()
+    //    begin
+    //        Error('Dit is de uitvoerende codeunit van de Scheduled Task!');
+    //    end;
+    //}
+    //**
 }
 
